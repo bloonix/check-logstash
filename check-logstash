@@ -1,4 +1,36 @@
 #!/usr/bin/perl
+
+=head1 NAME
+
+check-logstash - Bloonix plugin to check logstash.
+
+=head1 SYNOPSIS
+
+    check-logstash [ OPTIONS ]
+
+    check-logstash --help
+
+=head1 REPORTING BUGS
+
+Please report all bugs to <support(at)bloonix.de>.
+
+=head1 AUTHOR
+
+Jonny Schulz <support(at)bloonix.de>.
+
+=head1 POWERED BY
+
+     _    __ _____ _____ __  __ __ __   __
+    | |__|  |     |     |  \|  |__|\  \/  /
+    |  . |  |  |  |  |  |      |  | >    <
+    |____|__|_____|_____|__|\__|__|/__/\__\
+
+=head1 COPYRIGHT
+
+Copyright (C) 2013 by Jonny Schulz. All rights reserved.
+
+=cut
+
 use strict;
 use warnings;
 use Getopt::Long qw(:config no_ignore_case);
